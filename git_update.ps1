@@ -15,9 +15,6 @@ $date = Get-Date
 $timemsg = "[" + $date.ToLocalTime() + "]"
 $message = $timemsg + " " + $commit_msg
 
-# display the status of the current repo
-git-status
-
 # add files
 git add index.html
 git add git_update.ps1
